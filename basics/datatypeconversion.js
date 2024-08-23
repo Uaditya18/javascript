@@ -17,3 +17,19 @@
 //  1 => true 0=> false
 // "",null,undefined => false
 //  anything taht is not 0 in true 
+
+
+// ??*********** Operations**********??
+
+// all the operations 
+
+// +,-,*,/,**,%
+
+// a vry special point to note here 
+// console.log("1"+3); will print 13
+// console.log(1+2+3 + "2"); whereas this will print as 62
+
+// the rule is that the data type who is forst in the row will convert the whole data in its own type
+
+
+
