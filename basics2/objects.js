@@ -15,11 +15,25 @@ const user = {                      // 2nd way to create objects
 
 // ways to access object elements
 
-console.log(user.name);     // 1st way
-console.log(user["email"]); //2nd way
-console.log(user[mySym]);  //Symbol in objects
+// console.log(user.name);     // 1st way
+// console.log(user["email"]); //2nd way
+// console.log(user[mySym]);  //Symbol in objects
 
 //freeze 
-Object.freeze(user)
+//Object.freeze(user)
+
+user.greeting = function(){
+  console.log("hello user");
+  
+}
+
+user.greetingTwo= function(){
+    console.log(`Hello my name is ${this.name}`);
+    
+}
+
+console.log(user.greetingTwo());
+// console.log(user);
+
 
 
