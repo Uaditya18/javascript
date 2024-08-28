@@ -39,4 +39,4 @@ const obj = {
     name: "aditya Upadhya",
     class : "7a"
 }
-for(let i=0;i<obj)
+
