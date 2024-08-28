@@ -1,6 +1,6 @@
 
 
-//  objects 3 starts from here
+//  objects 3 starts from here destructure
 
 const course = {
     courseName : "js in hindi",
