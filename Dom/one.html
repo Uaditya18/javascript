@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dom learning</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div >
+        <h1 class="Heading" id="title">Dom Learning </h1>
+        <h1 class="Heading" id="title">Dom Learning 1</h1>
+        <h1 class="Heading" id="title">Dom Learning 2</h1>
+        <h1 class="Heading" id="title">Dom Learning 3</h1>
+        <h1 class="Heading" id="title">Dom Learning 4</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+        <ul cllass="list">
+            <li class="list">One</li>
+            <li class="list">two</li>
+            <li class="list">three</li>
+            <li class="list">four</li>
+            <li class="list">five</li>
+        </ul>
+    </div>
+</body>
+</html>
+
+/*
+document.getElemntById('title')
+document.getElemntById('title').className
+document.getElemntById('title').attribute('class')
+document.getElemntById('title').setAttribute('class','test')
+document.getElemntById('title').getAttribute('class','test')
+const title = document.getElemntById('title')
+
+now we can apply methids on temp
+like 
+temp.style.anything
+
+// diffrence between textContent, innertext, innerHTML
+title.textContent shows the whole text in the element
+title.innerText shows only visible if any text in hiidden in element this will never show them
+tittle.innerHTML shows html also in element contain any html inside
+
+
+
+Query selector
+document.querySelector() selects and bring specific element by id, class, element name etc
+
+document.querySelectorAll('') will return a NodeList on which we can use forEach loop with callBack
+
+document.getElementByClassName('anyname')  will  return a htmlCollection On which we cannot apply looping
+so wee change it into Array using
+Array.from(name of html Collection)
+*/
