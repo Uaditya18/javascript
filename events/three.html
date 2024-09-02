@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>chai aur code</h1>
+    <button id="stop">Stop</button>
+    <button id="start">start</button>
+</body>
+<script>
+   
+    const changeText = function(){
+        document.querySelector('h1').innerHTML = "i am the best"
+    }
+
+   
+    let timeout 
+    document.querySelector('#start').addEventListener('click', function() {
+    setInterval(changeText, 1000);
+    console.log(timeout);
+});
+document.querySelector('#stop').addEventListener('click', function(e) {
+        clearInterval(timeout);
+        timeout = null
+    });
+   
+</script>
+</html>
